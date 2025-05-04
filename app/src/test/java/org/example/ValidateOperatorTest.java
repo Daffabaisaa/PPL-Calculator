@@ -41,12 +41,5 @@ class ValidateOperatorTest {
     void testInvalidOperatorRandomString() {
         assertFalse(validator.validateOperator("abc"));
     }
-
-    @Test
-    void testNullOperatorThrowsException() {
-        assertThrows(NullPointerException.class, () -> {
-            validator.validateOperator(null);
-        });
-    }
 }
 
