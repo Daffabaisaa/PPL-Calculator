@@ -31,6 +31,7 @@ testing {
                     testTask.configure {
                         ignoreFailures = true
                         testLogging {
+                            events "passed", "failed", "skipped", "standardOut", "standardError"
                             showStandardStreams = true
                         }
                     }

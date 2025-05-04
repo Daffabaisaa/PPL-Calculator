@@ -28,6 +28,11 @@ public class ComputeTest {
     }
 
     @Test
+    public void testDivisionByZero() {
+        assertThrows(ArithmeticException.class, () -> computation.compute("/", 10, 0));
+    }
+
+    @Test
     public void testInvalidOperator() {
         assertThrows(IllegalArgumentException.class, () -> computation.compute("&", 10, 5));
     }
