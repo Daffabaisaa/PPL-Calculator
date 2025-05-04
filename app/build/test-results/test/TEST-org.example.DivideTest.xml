@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.example.DivideTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2025-05-04T11:02:06.439Z" hostname="LAPTOP-SQ62M694" time="0.009">
+  <properties/>
+  <testcase name="testDivideZeroByPositiveNumber()" classname="org.example.DivideTest" time="0.001"/>
+  <testcase name="testDivideByZero()" classname="org.example.DivideTest" time="0.002"/>
+  <testcase name="testDividePositiveAndNegativeNumbers()" classname="org.example.DivideTest" time="0.0"/>
+  <testcase name="testDividePositiveNumbers()" classname="org.example.DivideTest" time="0.001"/>
+  <testcase name="testDivideNegativeNumbers()" classname="org.example.DivideTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

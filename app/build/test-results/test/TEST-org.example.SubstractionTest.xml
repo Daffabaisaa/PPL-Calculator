@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.example.SubstractionTest" tests="4" skipped="0" failures="1" errors="0" timestamp="2025-05-04T11:02:06.466Z" hostname="LAPTOP-SQ62M694" time="0.014">
+  <properties/>
+  <testcase name="testSubtractionWithNegativeResult()" classname="org.example.SubstractionTest" time="0.001"/>
+  <testcase name="testSubtractionWithZero()" classname="org.example.SubstractionTest" time="0.001"/>
+  <testcase name="testSubtractionWithFloatingPoint()" classname="org.example.SubstractionTest" time="0.01">
+    <failure message="java.util.NoSuchElementException: No line found" type="java.util.NoSuchElementException">java.util.NoSuchElementException: No line found
+	at java.base/java.util.Scanner.nextLine(Scanner.java:1660)
+	at org.example.InputHandler.getNumberInput(InputHandler.java:10)
+	at org.example.App.main(App.java:11)
+	at org.example.SubstractionTest.testSubtractionWithFloatingPoint(SubstractionTest.java:71)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+</failure>
+  </testcase>
+  <testcase name="testSubtractionPositiveNumbers()" classname="org.example.SubstractionTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

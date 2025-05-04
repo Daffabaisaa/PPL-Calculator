@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.example.ValidateOperatorTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2025-05-04T11:02:06.481Z" hostname="LAPTOP-SQ62M694" time="0.018">
+  <properties/>
+  <testcase name="testInvalidOperatorRandomString()" classname="org.example.ValidateOperatorTest" time="0.001"/>
+  <testcase name="testValidateNumericWithInvalidDecimal()" classname="org.example.ValidateOperatorTest" time="0.002"/>
+  <testcase name="testNullOperatorThrowsException()" classname="org.example.ValidateOperatorTest" time="0.002"/>
+  <testcase name="testValidOperatorDivide()" classname="org.example.ValidateOperatorTest" time="0.002"/>
+  <testcase name="testValidateRangeAboveMaximum()" classname="org.example.ValidateOperatorTest" time="0.001"/>
+  <testcase name="testValidOperatorPlus()" classname="org.example.ValidateOperatorTest" time="0.001"/>
+  <testcase name="testInvalidOperatorModulo()" classname="org.example.ValidateOperatorTest" time="0.0"/>
+  <testcase name="testValidateRangeValidInput()" classname="org.example.ValidateOperatorTest" time="0.0"/>
+  <testcase name="testValidateRangeBelowMinimum()" classname="org.example.ValidateOperatorTest" time="0.001"/>
+  <testcase name="testValidateNumericWithValidInteger()" classname="org.example.ValidateOperatorTest" time="0.0"/>
+  <testcase name="testValidOperatorMultiply()" classname="org.example.ValidateOperatorTest" time="0.0"/>
+  <testcase name="testInvalidOperatorEmptyString()" classname="org.example.ValidateOperatorTest" time="0.001"/>
+  <testcase name="testValidOperatorMinus()" classname="org.example.ValidateOperatorTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

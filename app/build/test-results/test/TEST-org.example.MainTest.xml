@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.example.MainTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2025-05-04T11:02:06.455Z" hostname="LAPTOP-SQ62M694" time="0.01">
+  <properties/>
+  <testcase name="testDivisionByZeroWithRetry()" classname="org.example.MainTest" time="0.001"/>
+  <testcase name="testDivisionWithNegative()" classname="org.example.MainTest" time="0.0"/>
+  <testcase name="testInvalidOperand1Retry()" classname="org.example.MainTest" time="0.001"/>
+  <testcase name="testInvalidOperand2Retry()" classname="org.example.MainTest" time="0.001"/>
+  <testcase name="testOutOfRangeOperand1Retry()" classname="org.example.MainTest" time="0.001"/>
+  <testcase name="testOutOfRangeOperand2Retry()" classname="org.example.MainTest" time="0.001"/>
+  <testcase name="testInvalidOperatorRetry()" classname="org.example.MainTest" time="0.0"/>
+  <testcase name="testValidCondition()" classname="org.example.MainTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
