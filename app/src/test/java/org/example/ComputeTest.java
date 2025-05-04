@@ -9,17 +9,17 @@ public class ComputeTest {
 
     @Test
     public void testAddition() {
-        assertEquals(8, computation.compute("+", 10, 5));
+        assertEquals(15, computation.compute("+", 10, 5));
     }
 
     @Test
     public void testSubtraction() {
-        assertEquals(2, computation.compute("-", 10, 5));
+        assertEquals(5, computation.compute("-", 10, 5));
     }
 
     @Test
     public void testMultiplication() {
-        assertEquals(15, computation.compute("*", 10, 5));
+        assertEquals(50, computation.compute("*", 10, 5));
     }
 
     @Test
@@ -29,7 +29,7 @@ public class ComputeTest {
 
     @Test
     public void testDivisionByZero() {
-        assertThrows(ArithmeticException.class, () -> computation.compute("/", 10, 5));
+        assertThrows(ArithmeticException.class, () -> computation.compute("/", 10, 0));
     }
 
     @Test
